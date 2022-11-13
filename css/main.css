@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    background-color: #EDF2F6;
+
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.site__inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+}
+
+.site__inner-link {
+    padding: 150px 350px;
+    background-color: #7440C8;
+    border-radius: 10px;
+}
+
+.site__inner-taxt {
+    padding: 150px 150px;
+    background-color: #48546A;
+    border-radius: 10px;
+}
+
+.site__logo {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    bottom: 30px;
+
+}
+
+.site__logo-link {
+    padding: 150px 350px;
+    background-color: #18202D;
+    border-radius: 10px;
+}
+
+.site__logo-taxt {
+    padding: 150px 150px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.site__taxt {
+    padding: 310px 130px ;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
